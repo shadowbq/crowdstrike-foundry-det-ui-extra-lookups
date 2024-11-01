@@ -1,0 +1,40 @@
+app_id: 9b78c7850dc54a2fbcf296a6249138de
+name: circl-sha256-lookup
+description: Lookup sha256 hash with circl
+logo: c35f3b729f029363.png
+manifest_version: "2023-05-09"
+ignored: []
+ui:
+  homepage: ""
+  extensions:
+    - id: 17510ad52b394da99ab668f5ed592434
+      name: Hash Extras (Foundry)
+      description: ""
+      path: ui/extensions/ui-circl-sha256-lookup/src
+      entrypoint: ui/extensions/ui-circl-sha256-lookup/src/index.html
+      sockets:
+        - activity.detections.details
+      content_security_policy:
+        connect-src: []
+        style-src: []
+        style-src-elem: []
+        script-src: []
+        form-action: []
+        img-src: []
+        media-src: []
+        object-src: []
+      permissions: []
+  pages: {}
+  dashboards: {}
+  navigation: {}
+api_integrations: []
+rtr_scripts: []
+collections: []
+auth:
+  scopes: []
+  permissions: {}
+  roles: []
+functions: []
+workflows: []
+logscale:
+  saved_searches: []
