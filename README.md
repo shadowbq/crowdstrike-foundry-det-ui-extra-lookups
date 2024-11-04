@@ -21,3 +21,7 @@ CLI initial template:
 ## Output
 
 ![Alt text](docs/Screenshot.png?raw=true "Screen Shot")
+
+## Note on iframe injections
+
+The chrome allow is set to blank, so `<iframe allow=“”`. No microphone, webcam, **clipboard**, encrypted media would be allowed through iframe linkage. 

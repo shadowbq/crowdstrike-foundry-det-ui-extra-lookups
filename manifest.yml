@@ -5,11 +5,11 @@ logo: c35f3b729f029363.png
 manifest_version: "2023-05-09"
 ignored: []
 ui:
-  homepage: "https://github.com/shadowbq/crowdstrike-foundry-det-ui-extra-lookups"
+  homepage: ""
   extensions:
     - id: 17510ad52b394da99ab668f5ed592434
       name: Hash Extras (Foundry)
-      description: "Simple example extending Det UI with Hash lookups"
+      description: "Foundry extension for looking up hashes related to the Detection in other 3rd party services."
       path: ui/extensions/ui-circl-sha256-lookup/src
       entrypoint: ui/extensions/ui-circl-sha256-lookup/src/index.html
       sockets:

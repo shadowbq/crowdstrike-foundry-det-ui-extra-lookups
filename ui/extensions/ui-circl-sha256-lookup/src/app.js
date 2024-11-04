@@ -19,15 +19,9 @@ function drawCircl(md5, sha256) {
       <dd class="type-md min-h-6 text-titles-and-attributes" data-test-selector="value">
         <span class="grid" data-test-selector="truncate-text">
           <span class="block truncate" data-test-selector="text-container">
+            <span id="det-md5">
             ` + md5 + `
-            <button aria-label="Copy to clipboard" class="duration-150 ease-out inline-flex justify-center p-1 rounded-sm transition interactive-quiet" type="button">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"
-                data-icon-path="controls/copy-16" class="flex-none " data-test-selector="icon">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-4H2a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h8ZM5 9H2V1h8v4H6a1 1 0 0 0-1 1v3Zm6-3H6v8h8V6h-3Z">
-                </path>
-              </svg>
-              <span data-test-selector="falcon-tooltip-trigger" hidden=""></span>
-            </button>
+            </span>
           </span></span>
       </dd>
     </div>
@@ -36,17 +30,7 @@ function drawCircl(md5, sha256) {
         File Hash Sha256
       </dt>
       <dd class="type-md min-h-6 text-titles-and-attributes" data-test-selector="value">
-        ` + sha256 + `
-        <button aria-label="Copy to clipboard"
-          class="duration-150 ease-out inline-flex justify-center p-1 rounded-sm transition interactive-quiet" type="button">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"
-            data-icon-path="controls/copy-16" class="flex-none " data-test-selector="icon">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M10 0a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-4H2a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h8ZM5 9H2V1h8v4H6a1 1 0 0 0-1 1v3Zm6-3H6v8h8V6h-3Z">
-            </path>
-          </svg>
-          <span data-test-selector="falcon-tooltip-trigger" hidden=""></span>
-        </button>
+        <span id="det-sha256">` + sha256 + ` </span>
       </dd>
     </div>
     <div class="col-span-1 col-start-1 row-span-1 row-start-3" data-test-selector="user-logon-type">
