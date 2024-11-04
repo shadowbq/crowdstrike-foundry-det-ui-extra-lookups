@@ -17,3 +17,7 @@ This app was created with
 CLI initial template: 
 
 `foundry ui extensions create`
+
+## Output
+
+![Alt text](docs/Screenshot.png?raw=true "Screen Shot")
